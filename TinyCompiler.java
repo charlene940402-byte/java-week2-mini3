@@ -25,4 +25,5 @@ public class TinyCompiler {
         System.out.println("MOVI R2, " + third);
         System.out.println("ADD R0, R0, R2");
         System.out.println("STORE [0], R0");
+    }
 }
