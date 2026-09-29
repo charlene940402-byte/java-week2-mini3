@@ -21,8 +21,9 @@ public class TinyCompiler {
         keyin.next();
         System.out.println("MOVI R1, " + first);
         System.out.println("MOVI R2, " + second);
-        System.out.println("MOVI R3, " + third);
-        System.out.println("ADD R0, R1, R2, R3");
+        System.out.println("ADD R0, R1, R2");
+        System.out.println("MOVI R2, " + third);
+        System.out.println("ADD R0, R0, R2");
         System.out.println("STORE [0], R0");
  }
 }
